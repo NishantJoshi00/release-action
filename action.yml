@@ -1,0 +1,15 @@
+name: "Release Action"
+author: "Nishant Joshi <joshinishant@duck.com>"
+description: "Create a release simply by changing config file"
+inputs:
+  config-file:
+    description: "config-file containing release details (tags.yml)"
+    required: false
+    default: "tags.yml"
+  branch:
+    description: "Branch for release"
+    required: false
+    default: "main"
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

@@ -1,0 +1,22 @@
+{
+  "name": "release-action",
+  "version": "0.1.0",
+  "description": "A Github Action For generating automated Releases",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "prepack": "ncc build index.js --license LICENSE"
+  },
+  "keywords": [
+    "Github",
+    "Actions",
+    "CI/CD"
+  ],
+  "author": "Nishant Joshi <joshinishant@duck.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}
