@@ -1,5 +1,9 @@
-name: "Release Action"
+name: "Act Tag Release"
 author: "Nishant Joshi <joshinishant@duck.com>"
+
+branding:
+  icon: activity
+  color: purple
 description: "Create a release simply by changing config file"
 inputs:
   config-file:
