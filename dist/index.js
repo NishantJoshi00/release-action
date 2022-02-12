@@ -12633,6 +12633,7 @@ async function add_tag_to_github(latest_tag, new_tag) {
         body: new_tag.body,
         target_commitish: core.getInput("branch"),
         generate_release_notes: true,
+        draft: true
     })
 }
 
