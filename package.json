@@ -1,6 +1,6 @@
 {
-  "name": "release-action",
-  "version": "0.1.0",
+  "name": "act-tag-release",
+  "version": "0.1.1",
   "description": "A Github Action For generating automated Releases",
   "main": "index.js",
   "scripts": {

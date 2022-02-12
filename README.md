@@ -1,4 +1,4 @@
-# Release Action
+# Act-Tag-Release
 
 Want help creating releases?
 We got you covered.
